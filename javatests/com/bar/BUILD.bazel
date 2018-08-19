@@ -1,0 +1,5 @@
+java_test(
+	name = "B",
+	srcs = ["B.java"],
+	deps = ["//javatests/com/foo:A"]
+)
